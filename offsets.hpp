@@ -1,7 +1,6 @@
 #pragma once
 #include <cstdint>
 
-// Auto-generated Roblox Offsets & Patterns
 // Target Version: version-76173e47a79145c7
 
 namespace Roblox {
@@ -316,7 +315,7 @@ namespace Roblox {
         constexpr std::uintptr_t Selected = 0x9C6; // Unresolved in this version
         constexpr std::uintptr_t Text = 0xDD0; // Unresolved in this version
         constexpr std::uintptr_t TextColor3 = 0x10D0; // Unresolved in this version
-        constexpr std::uintptr_t TextDirection = 0xF68; // Resolved @ 0x7FF674188020 | Sig: 24 38 48 ? ? ? ? 48 85 F6 74 2C 8B C7 F0 0F C1 06 83 F8 01 75 1C 48
+        constexpr std::uintptr_t TextDirection = 0xF68; // Resolved @ 0x7FF675889038 | Sig: 00 EB 55 48 85 F6 74 50 48 8B 7A 08 48 85 FF 74 3A BB FF FF FF FF 8B C3
         constexpr std::uintptr_t TextScaled = 0xDB9; // Unresolved in this version
         constexpr std::uintptr_t TextSize = 0x10FC; // Unresolved in this version
         constexpr std::uintptr_t TextStrokeColor3 = 0x10DC; // Unresolved in this version
@@ -331,7 +330,7 @@ namespace Roblox {
     namespace TextLabel {
         constexpr std::uintptr_t ContentText = 0xB50; // Resolved @ 0x7FF672A59DDE | Sig: 48 8D 8D ? ? ? ? E8 ? ? ? ? 90 4C 8B C0 BA 7D 00 00 00 48 8B CF
         constexpr std::uintptr_t Font = 0xE68; // Unresolved in this version
-        constexpr std::uintptr_t LineHeight = 0xC48; // Resolved @ 0x7FF673F07010 | Sig: 00 00 48 8B 9C 24 88 00 00 00 88 08 41 C6 85 D0 06 00 00 01 48 83 C4 60
+        constexpr std::uintptr_t LineHeight = 0xC48; // Unresolved in this version
         constexpr std::uintptr_t LocalizedText = 0xB50; // Resolved @ 0x7FF672A59DDE | Sig: 48 8D 8D ? ? ? ? E8 ? ? ? ? 90 4C 8B C0 BA 7D 00 00 00 48 8B CF
         constexpr std::uintptr_t MaxVisibleGraphemes = 0xE74; // Unresolved in this version
         constexpr std::uintptr_t RichText = 0xD46; // Unresolved in this version
