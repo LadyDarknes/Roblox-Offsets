@@ -1,0 +1,22 @@
+# IDA Pro temporary and database files
+*.i64
+*.idb
+*.nam
+*.til
+*.id0
+*.id1
+*.id2
+*.id0
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Local helper files and raw reports
+ida_helper.py
+resolved_offsets_report.txt
+ida_patterns_dump.txt
+patterns.md
+
+# Log files
+*.log
