@@ -14,7 +14,6 @@ A clean, auto-generated C++ header file containing resolved Roblox instance offs
 
 ### 📂 File Structure
 * `offsets.hpp` - The main C++ header containing all offsets and patterns.
-* `.gitignore` - Kept minimal to only track the header and documentation.
 
 ### 🚀 Usage
 Simply include `offsets.hpp` in your C++ project:
