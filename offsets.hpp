@@ -1,5 +1,7 @@
 #pragma once
 #include <cstdint>
+
+// Auto-generated Roblox Offsets & Patterns
 // Target Version: version-76173e47a79145c7
 
 namespace Roblox {
@@ -101,7 +103,7 @@ namespace Roblox {
         constexpr std::uintptr_t BreakJointsOnDeath = 0x1E3; // Unresolved in this version
         constexpr std::uintptr_t CameraOffset = 0x140; // Resolved @ 0x7FF674EE4FE0 | Sig: 0F B6 81 40 01 00 00 C3 CC CC CC CC CC CC CC CC 40 53 48 83 EC 20 48 8B
         constexpr std::uintptr_t DisplayDistanceType = 0x18C; // Resolved @ 0x7FF67463CBF0 | Sig: 0F B6 81 8C 01 00 00 C3 CC CC CC CC CC CC CC CC 48 ? ? ? ? 57 48 83
-        constexpr std::uintptr_t EvaluateStateMachine = 0x1E4; // Resolved @ 0x7FF67320FE10 | Sig: 00 00 41 0F B6 46 0D 88 85 13 01 00 00 0F B6 05 E4 61 01 07 48 8B 8D ?
+        constexpr std::uintptr_t EvaluateStateMachine = 0x1E4; // Resolved @ 0x7FF673F0F6B7 | Sig: F3 0F 10 86 E4 01 00 00 F3 0F 10 AE D8 01 00 00 F3 0F 10 8E E8 01 00 00
         constexpr std::uintptr_t Health = 0x194; // Resolved @ 0x7FF672F89A20 | Sig: F3 0F 10 81 94 01 00 00 C3 CC CC CC CC CC CC CC 8B 81 98 01 00 00 C3 CC
         constexpr std::uintptr_t HealthDisplayDistance = 0x198; // Resolved @ 0x7FF673562E60 | Sig: 48 8B 81 ? ? ? ? C3 CC CC CC CC CC CC CC CC 4C 8B 81 ? ? ? ? 33
         constexpr std::uintptr_t HealthDisplayType = 0x19C; // Resolved @ 0x7FF672F8A9F0 | Sig: F3 0F 10 81 9C 01 00 00 C3 CC CC CC CC CC CC CC 8B 41 08 F2 0F 10 01 F2
@@ -142,7 +144,7 @@ namespace Roblox {
 
     namespace Lighting {
         constexpr std::uintptr_t Ambient = 0xE0; // Resolved @ 0x7FF673333730 | Sig: 48 8B 81 ? ? ? ? C3 CC CC CC CC CC CC CC CC 41 B8 01 00 00 00 48 8D
-        constexpr std::uintptr_t Atmosphere = 0x1F0; // Resolved @ 0x7FF67291CD1F | Sig: 48 8D 97 ? ? ? ? 48 8D 8B ? ? ? ? 48 3B CA 74 13 48 83 7A 18 10
+        constexpr std::uintptr_t Atmosphere = 0x1F0; // Resolved @ 0x7FF672914F63 | Sig: C6 85 F0 01 00 00 00 C6 85 18 02 00 00 00 C6 85 20 02 00 00 00 48 8D B5
         constexpr std::uintptr_t Brightness = 0x128; // Resolved @ 0x7FF673910091 | Sig: 48 8B 81 ? ? ? ? C3 41 83 F8 0D 75 08 48 8B 81 ? ? ? ? C3 41 83
         constexpr std::uintptr_t ClockTime = 0x1C0; // Resolved @ 0x7FF672A0B1E2 | Sig: 25 C0 01 00 00 45 8D 77 04 83 F8 40 74 76 85 DB 0F 85 3E 01 00 00 48 85
         constexpr std::uintptr_t ColorShift_Bottom = 0xEC; // Resolved @ 0x7FF67329ADC0 | Sig: F3 0F 10 81 EC 00 00 00 C3 CC CC CC CC CC CC CC 8B 81 F0 00 00 00 C3 CC
@@ -213,7 +215,7 @@ namespace Roblox {
     }
 
     namespace Player {
-        constexpr std::uintptr_t AccountAge = 0x34C; // Resolved @ 0x7FF6745C6008 | Sig: D4 CC 34 FE 83 CF 20 83 CF 02 89 7C 24 40 48 8D 15 ? ? ? ? 48 83 3D
+        constexpr std::uintptr_t AccountAge = 0x34C; // Unresolved in this version
         constexpr std::uintptr_t Character = 0x3C8; // Resolved @ 0x7FF67291453E | Sig: 48 C7 83 C8 03 00 00 0F 00 00 00 40 88 BB B0 03 00 00 48 89 BB ? ? ?
         constexpr std::uintptr_t DisplayName = 0x150; // Resolved @ 0x7FF672F894A0 | Sig: 48 8B 81 ? ? ? ? C3 CC CC CC CC CC CC CC CC F3 0F 10 41 20 C3 CC CC
         constexpr std::uintptr_t HealthDisplayDistance = 0x378; // Resolved @ 0x7FF672A58AA2 | Sig: 48 C7 85 78 03 00 00 0F 00 00 00 C6 85 60 03 00 00 00 48 8D 15 ? ? ?
@@ -293,7 +295,7 @@ namespace Roblox {
     }
 
     namespace Terrain {
-        constexpr std::uintptr_t GrassLength = 0x1F0; // Resolved @ 0x7FF67291CD1F | Sig: 48 8D 97 ? ? ? ? 48 8D 8B ? ? ? ? 48 3B CA 74 13 48 83 7A 18 10
+        constexpr std::uintptr_t GrassLength = 0x1F0; // Resolved @ 0x7FF672914F63 | Sig: C6 85 F0 01 00 00 00 C6 85 18 02 00 00 00 C6 85 20 02 00 00 00 48 8D B5
         constexpr std::uintptr_t MaterialColors = 0x4A0; // Resolved @ 0x7FF673A31991 | Sig: 48 8B 81 ? ? ? ? C3 CC CC CC CC CC CC CC 83 B9 CC 01 00 00 00 74 08
         constexpr std::uintptr_t WaterColor = 0x1E0; // Resolved @ 0x7FF67290B132 | Sig: 48 8D 8D ? ? ? ? FF 15 B1 72 4B 05 80 3D A2 BB 41 07 00 74 13 48 8B
         constexpr std::uintptr_t WaterReflectance = 0x1F8; // Resolved @ 0x7FF6732C8530 | Sig: 48 8B 81 ? ? ? ? C3 CC CC CC CC CC CC CC CC 48 63 81 D8 01 00 00 48
@@ -306,7 +308,7 @@ namespace Roblox {
         constexpr std::uintptr_t AutoButtonColor = 0x9C4; // Unresolved in this version
         constexpr std::uintptr_t ContentText = 0xDD0; // Unresolved in this version
         constexpr std::uintptr_t Font = 0x10E8; // Unresolved in this version
-        constexpr std::uintptr_t LineHeight = 0xEC8; // Resolved @ 0x7FF6733F1000 | Sig: 40 53 48 81 EC 20 05 00 00 48 8B D9 48 8B 09 0F B6 51 10 48 8B 49 38 E8
+        constexpr std::uintptr_t LineHeight = 0xEC8; // Resolved @ 0x7FF6733F111B | Sig: 48 81 C1 C8 0E 00 00 48 8D 89 ? ? ? ? 0F 10 00 0F 10 48 10 48 8D 80
         constexpr std::uintptr_t LocalizedText = 0xDD0; // Unresolved in this version
         constexpr std::uintptr_t MaxVisibleGraphemes = 0x10F4; // Unresolved in this version
         constexpr std::uintptr_t Modal = 0x9C5; // Unresolved in this version
@@ -314,7 +316,7 @@ namespace Roblox {
         constexpr std::uintptr_t Selected = 0x9C6; // Unresolved in this version
         constexpr std::uintptr_t Text = 0xDD0; // Unresolved in this version
         constexpr std::uintptr_t TextColor3 = 0x10D0; // Unresolved in this version
-        constexpr std::uintptr_t TextDirection = 0xF68; // Resolved @ 0x7FF6734D8000 | Sig: 48 8B 1F E8 ? ? ? ? 48 3B D8 0F 85 F6 00 00 00 48 8B CE E8 ? ? ?
+        constexpr std::uintptr_t TextDirection = 0xF68; // Resolved @ 0x7FF674188020 | Sig: 24 38 48 ? ? ? ? 48 85 F6 74 2C 8B C7 F0 0F C1 06 83 F8 01 75 1C 48
         constexpr std::uintptr_t TextScaled = 0xDB9; // Unresolved in this version
         constexpr std::uintptr_t TextSize = 0x10FC; // Unresolved in this version
         constexpr std::uintptr_t TextStrokeColor3 = 0x10DC; // Unresolved in this version
@@ -329,7 +331,7 @@ namespace Roblox {
     namespace TextLabel {
         constexpr std::uintptr_t ContentText = 0xB50; // Resolved @ 0x7FF672A59DDE | Sig: 48 8D 8D ? ? ? ? E8 ? ? ? ? 90 4C 8B C0 BA 7D 00 00 00 48 8B CF
         constexpr std::uintptr_t Font = 0xE68; // Unresolved in this version
-        constexpr std::uintptr_t LineHeight = 0xC48; // Resolved @ 0x7FF6732C14D0 | Sig: 8B 74 24 38 48 83 C4 20 5F C3 CC CC CC CC CC CC 40 55 53 56 57 48 ? ?
+        constexpr std::uintptr_t LineHeight = 0xC48; // Resolved @ 0x7FF673F07010 | Sig: 00 00 48 8B 9C 24 88 00 00 00 88 08 41 C6 85 D0 06 00 00 01 48 83 C4 60
         constexpr std::uintptr_t LocalizedText = 0xB50; // Resolved @ 0x7FF672A59DDE | Sig: 48 8D 8D ? ? ? ? E8 ? ? ? ? 90 4C 8B C0 BA 7D 00 00 00 48 8B CF
         constexpr std::uintptr_t MaxVisibleGraphemes = 0xE74; // Unresolved in this version
         constexpr std::uintptr_t RichText = 0xD46; // Unresolved in this version
