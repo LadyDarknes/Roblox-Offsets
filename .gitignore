@@ -1,6 +1,7 @@
 # Ignore everything by default
 *
 
-# Allow only offsets.hpp and .gitignore
+# Allow only offsets.hpp, .gitignore, and README.md
 !offsets.hpp
 !.gitignore
+!README.md
