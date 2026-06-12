@@ -13,7 +13,7 @@ A clean, auto-generated C++ header file containing resolved Roblox instance offs
 ---
 
 ### 📂 File Structure
-* `offsets.hpp` - The main C++ header containing all offsets and patterns.
+`offsets.hpp` - The main C++ header containing all offsets and patterns.
 
 ### 🚀 Usage
 Simply include `offsets.hpp` in your C++ project:
